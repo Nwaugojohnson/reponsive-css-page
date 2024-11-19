@@ -14,3 +14,41 @@ header {
 main {
     padding: 2rem;
 }
+
+.products {
+    display: grid;
+    gap: 5rem;
+}
+
+.product {
+    border-radius: 1rem;
+    background-color: #ebebeb;
+    overflow: hidden;
+}
+
+.product-image-box {
+    height: 40rem;
+}
+
+.product-image-box img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.product-content-box {
+    padding: 2rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.product-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.product-price p {
+    font-size: 1rem;
+}
