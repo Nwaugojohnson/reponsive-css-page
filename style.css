@@ -6,8 +6,9 @@ body {
 /* Header */
 header {
     padding: 2rem;
-    background-color: #f4f4f4;
+    background-color: white;
     width: 95%;
+    border-bottom: #dad7d7 solid 2px;
 }
 
 /* Main Styles */
