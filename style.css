@@ -7,7 +7,7 @@ body {
 header {
     padding: 2rem;
     background-color: #f4f4f4;
-    width: 100%;
+    width: 95%;
 }
 
 /* Main Styles */
@@ -27,7 +27,7 @@ main {
 }
 
 .product-image-box {
-    height: 40rem;
+    height: 25rem;
 }
 
 .product-image-box img {
@@ -46,7 +46,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .product-price p {
@@ -56,7 +56,7 @@ main {
 .product-price button {
     font-weight: 700;
     background-color: blue;
-    padding: 0.5rem 2rem;
+    padding: 0.8rem 2rem;
     border-radius: 0.5rem;
     border: none;
     color: white;
@@ -69,4 +69,29 @@ footer {
     background-color: #ebebeb;
     text-align: center;
     font-size: 0.8rem;
+}
+
+/* ============================================= */
+
+/* Reponsive styles for Tablet Screens */
+@media screen and (min-width: 768px) {
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    footer {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        gap: 1rem;
+    }
+    footer section {
+        display: flex;
+        gap: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .products {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
